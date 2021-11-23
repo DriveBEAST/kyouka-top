@@ -6,7 +6,14 @@ body {
     list-style: none;
   }
 
-  @media screen and(max-width: 50%) { #css{width:auto;} }
+  @media screen and(
+    max-width: 100%) { #css{width:auto;}
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+  }
   
   .header {
     background-color: #fdb8b0;
