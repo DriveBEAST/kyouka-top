@@ -1,19 +1,10 @@
 @media (max-width: 670px) {
-    .contents-block {
-        width: 100%;
-    }
-
     .header-list li {
         display: none;
     }
 
     .menu-icon {
         display: block;
-    }
-
-    .flower {
-        width: 90%;
-        height: 70%;
     }
 
     .top-wrapper {
@@ -42,6 +33,19 @@
         font-weight: 700;
         background-color: #ebeff1;
         transition: 0.3s;
+    }
+
+    .contents-block {
+        width: 100%;
+    }
+
+    .flower {
+        width: 90%;
+        height: 70%;
+    }
+
+    .plan {
+        width: 100%;
     }
       
 }
