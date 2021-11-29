@@ -1,0 +1,47 @@
+@media (max-width: 670px) {
+    .contents-block {
+        width: 100%;
+    }
+
+    .header-list li {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .flower {
+        width: 90%;
+        height: 300px;
+    }
+
+    .top-wrapper {
+        padding: 10px 1px 300px;
+        background-image: url(maincover.png);
+        background-size: cover;
+    }
+
+    .top-wrapper h1 {
+        font-size: 17px;
+    }
+      
+    .top-wrapper h2 {
+        font-size: 11px;
+        padding-bottom: 5px;
+    }
+
+    .btn-wrapper a {
+        align-items: center;
+        position: relative;
+        margin: 0 auto;
+        padding: 0.7rem 1.5rem;
+        width: 110px;
+        color: #333;
+        font-size: 10px;
+        font-weight: 700;
+        background-color: #ebeff1;
+        transition: 0.3s;
+    }
+      
+}
