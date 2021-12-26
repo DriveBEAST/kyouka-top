@@ -14,6 +14,7 @@ body {
     clear: left;
   }
   
+  /*ヘッダ*/
   header {
     background-color: #fdb8b0;
     width: 100%;
@@ -58,6 +59,7 @@ body {
     display: none;
   }
   
+  /*トップ画*/
   .top-wrapper {
     padding: 23px 50px 390px;
     background-image: url(maincover.png);
@@ -132,6 +134,7 @@ body {
     background-color: #fdb8b0;
   }
 
+  /*topコンテンツ*/
   .contents-wrapper {
     padding-bottom: 0px;
     background-color: #fdb8b0;
@@ -152,32 +155,59 @@ body {
     width: 50%;
     height: 300px;
   }
-  
-  footer {
-    background-color: #ebeff1;
-    color: rgb(69, 69, 69);
-    font-size: 15px;
-    height: 190px;
-  }
-  
-  footer img {
-    float: left;
-    width: 69px;
-    border: 2px solid white;
-    border-radius: 10px;
-    margin-top: 60px;
-    margin-left: 60px;
-  }
-  
-  .footer-list {
-    float: left;
-    padding-top: 5px;
-  }
-  
-  .footer-list li {
-    padding-bottom: 10px;
+
+  /*概要*/
+  h4 {
+    margin-top: 0pt;
   }
 
+  .about-wrapper {
+    background-color: #fdb8b0;
+  }
+
+  .about-block {
+    padding-top: 20px;
+    padding-bottom: 4pt;
+    text-align: center;
+  }
+  
+  .step-wrapper {
+    padding-bottom: 0px;
+  }
+  
+  .step-block {
+    float: left;
+    width: 33.33%;
+    color: #fdb8b0;
+    text-align: center;
+  }
+
+  .flowerab {
+    width: 50%
+  }
+
+  .corpo-block {
+    color: #fdb8b0;
+    text-align: center;
+  }
+
+  .members-wrapper {
+    padding-bottom: 0px;
+  }
+
+  .members-block {
+    margin-bottom: 20px;
+  }
+
+  .members-block span {
+    color: #fdb8b0;
+  }
+
+  p.explan {
+    margin-bottom: 0px;
+  }
+
+  /*料金*/
   .plans-wrapper {
     padding-bottom: 0px;
     background-color: #fdb8b0;
@@ -192,7 +222,46 @@ body {
     height: 430px;
     text-align: center;
   }
+
+  /*特徴*/
+  .circularpic {
+    display: center;
+  }
+
+  /*つながり一覧*/
+  h6 {
+    margin-top: 0pt;
+    margin-bottom: 0px;
+    font-size: 41px;
+  }
+
+  .comment-wrapper {
+    background-color: #fdb8b0;
+    text-align: center;
+  }
+  .cooperate-block {
+    float: left;
+    text-align: center;
+    width: 25%;
+    margin-top: 10px;
+    color: #fdb8b0;
+  }
+
+  .cooperateyss-img {
+    width: 250px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+  }
+
+  .cooperatemg-img {
+    width: 210px;
+  }
+
+  .cooperatedb-img {
+    width: 250px;
+  }
   
+  /*問い合わせ*/
   .contact-form {
     padding-top: 10px;
     text-align: center;
@@ -217,4 +286,30 @@ body {
     font-size: 28px;
     padding-bottom: 15px;
     margin-bottom: 10px;
+  }
+
+  /*フッタ*/
+  footer {
+    background-color: #ebeff1;
+    color: rgb(69, 69, 69);
+    font-size: 15px;
+    height: 220px;
+  }
+  
+  footer img {
+    float: left;
+    width: 69px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 75px;
+    margin-left: 60px;
+  }
+  
+  .footer-list {
+    float: left;
+    padding-top: 5px;
+  }
+  
+  .footer-list li {
+    padding-bottom: 10px;
   }
