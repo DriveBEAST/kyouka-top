@@ -260,33 +260,6 @@ body {
   .cooperatedb-img {
     width: 250px;
   }
-  
-  /*問い合わせ*/
-  .contact-form {
-    padding-top: 10px;
-    text-align: center;
-  }
-  
-  input,textarea {
-    width: 400px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 20px;
-    font-size: 18px;
-    border: 1px solid #fdb8b0;
-  }
-    
-  .contact-submit {
-    background-color: #fdb8b0;
-    color: #ebeff1
-  }
-
-  .section-title {
-    border-bottom: 2px solid #fdb8b0;
-    font-size: 28px;
-    padding-bottom: 15px;
-    margin-bottom: 10px;
-  }
 
   /*フッタ*/
   footer {
@@ -296,7 +269,7 @@ body {
     height: 220px;
   }
   
-  footer img {
+  .flogo {
     float: left;
     width: 69px;
     border: 2px solid white;
